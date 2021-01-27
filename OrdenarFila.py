@@ -52,7 +52,7 @@ print("lista nuevos_sorted={}".format(nuevos_sorted))
 with open(ordenados, 'w', newline='') as csvfile:
 	writer = csv.writer(csvfile, delimiter=',')
 	writer.writerows(nuevos_sorted)
-	
+	print("finish")
 	
 	
 	
